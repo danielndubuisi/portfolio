@@ -52,7 +52,7 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
-            className='mb-8 max-w-lg mx-auto lg:mx-0'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eos explicabo sed minus corrupti eaque ullam dicta aspernatur enim nobis.
+            className='mb-8 max-w-lg mx-auto lg:mx-0'>From writing code to composing melodies, I am what you could call a harmonious blend of creative genius - design, development and musical symphonies coming together to craft digital and harmonic masterpieces.
           </motion.p>
           <motion.div 
             variants={fadeIn('up', 0.75)}
@@ -60,7 +60,7 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'>Contact me</button>
+            <button className='btn btn-lg'><a href="#contact">Contact me</a></button>
             <a href="#work" className='text-gradient btn-link'>My portfolio</a>
           </motion.div>
           {/* socials */}
