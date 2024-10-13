@@ -84,7 +84,7 @@ const Banner = () => {
             <a href="https://www.instagram.com/vinemusicofficial?igsh=cmdvcTM4cGw1czF0" className='hover:text-pink-400 transition-all'>
               <FaInstagram />
             </a>
-            <a href="#c" className='hover:text-red-500 transition-all'>
+            <a href="https://youtube.com/@vinemusicofficial?si=1PEBz7i-eiOgD_aK" className='hover:text-red-500 transition-all'>
               <FaYoutube />
             </a>
           </motion.div>

@@ -3,11 +3,11 @@ import React from 'react';
 import Logo from '../assets/new_logo2.png'
 
 const Header = () => {
-  return <header className='py-8'>
+  return <header className='pb-2'>
     <div className="container mx-auto">
       <div className='flex justify-between items-center'>
         {/* logo */}
-        <div className='mix-blend-lighten -mt-[125px] w-[130px] h-[0px] lg:-ml-7'>
+        <div className='mix-blend-lighten w-[80px] lg:w-[100px] lg:-ml-5'>
           <a href="/">
             <img src={Logo} alt="" className='w-full' />
           </a>

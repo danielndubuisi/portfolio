@@ -22,7 +22,7 @@ const About = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
-          className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-center'></motion.div>
+          className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-screen bg-center'></motion.div>
         {/* text */}
         <motion.div 
           variants={fadeIn('left', 0.5)}
@@ -30,36 +30,36 @@ const About = () => {
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}   
           className='flex-1'>
-          <h2 className='h2 text-accent'>About me</h2>
-          <h3 className='h3 mb-4'>I'm a Full Stack Developer with over 2 years of experience building web and software applications.</h3>
-          <p className='mb-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni eum sit id voluptas quibusdam quos repellat recusandae modi accusamus laudantium.</p>
+          <h2 className='lg:h2 h3 text-accent'>About me</h2>
+          <h3 className='lg:h3 text-l font-bold mb-4 -mt-3'>I'm a Full Stack Developer with over 3 years of experience building web and software applications.</h3>
+          <p className='mb-6 text-sm lg:text-lg'>I leverage my technical expertise and analytical skills to transform ideas into reality. Beyond my coding pursuits, I have a lifelong passion for creating and performing music. Music serves as a source of inspiration and balance in my life, enriching my perspective and fueling my drive for excellence.</p>
           {/* stats */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
-              <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {Inview ? <CountUp start={0} end={13} duration={3} /> : null}
+              <div className='lg:text-[40px] text-[30px] font-tertiary text-gradient lg:mb-2 mb-0'>
+                {Inview ? <CountUp start={0} end={3} duration={5} /> : null}
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>
+              <div className='lg:font-primary lg:text-sm lg:tracking-[2px] text-sm'>
                 Years of <br />
                 Experience
               </div>
             </div>
             <div>
-              <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {Inview ? <CountUp start={0} end={15} duration={3} /> : null}
-                k+
+              <div className='lg:text-[40px] text-[30px] font-tertiary text-gradient lg:mb-2 mb-0'>
+                {Inview ? <CountUp start={0} end={15} duration={5} /> : null}
+                +
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>
+              <div className='lg:font-primary lg:text-sm lg:tracking-[2px] text-sm'>
                 Projects <br />
                 Completed
               </div>
             </div>
             <div>
-              <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {Inview ? <CountUp start={0} end={20} duration={3} /> : null}
+              <div className='lg:text-[40px] text-[30px] font-tertiary text-gradient lg:mb-2 mb-0'>
+                {Inview ? <CountUp start={0} end={2} duration={5} /> : null}
                 k+
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>
+              <div className='lg:font-primary text-sm lg:tracking-[2px]'>
                 Monthly <br />
                 Listeners
               </div>
