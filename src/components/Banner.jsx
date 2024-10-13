@@ -2,7 +2,7 @@ import React from 'react';
 // images
 import Image from '../assets/avatar.svg'
 // icons
-import { FaGithub, FaSpotify, FaInstagram} from 'react-icons/fa'
+import { FaGithub, FaSpotify, FaInstagram, FaYoutube, FaLinkedin} from 'react-icons/fa'
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -30,14 +30,16 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
             className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
-            <span className='text-white mr-4'>I am a</span>
+            <span className='text-white mr-2'>I am</span>
             <TypeAnimation 
               sequence={[
-              'Developer',
+              'A Developer',
               2000,
-              'Designer',
+              'A Designer',
               2000,
-              'Musician',
+              'A Musician',
+              2000,
+              'An Analyst',
               2000
               ]}
               speed={50}
@@ -52,7 +54,7 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
-            className='mb-8 max-w-lg mx-auto lg:mx-0'>From writing code to composing melodies, I am what you could call a harmonious blend of creative genius - design, development and musical symphonies coming together to craft digital and harmonic masterpieces.
+            className='mb-8 max-w-lg mx-auto lg:mx-0'>From writing code to composing melodies, my work is a harmonious blend of creative genius - design, development and musical symphonies coming together to create digital and harmonic masterpieces.
           </motion.p>
           <motion.div 
             variants={fadeIn('up', 0.75)}
@@ -70,14 +72,20 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
             className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href="#a">
+            <a href="https://github.com/danielndubuisi/" className='hover:text-purple-400 transition-all'>
               <FaGithub />
             </a>
-            <a href="#b">
+            <a href="https://www.linkedin.com/in/pharmadevdaniel/" className='hover:text-blue-400 transition-all'>
+              <FaLinkedin />
+            </a>
+            <a href="https://open.spotify.com/artist/2xoJJCbOFxFXFmI8KgATtJ?si=LK-_lfhjSzqg6AqjCrSVeA" className='hover:text-green-400 transition-all'>
               <FaSpotify />
             </a>
-            <a href="#c">
+            <a href="https://www.instagram.com/vinemusicofficial?igsh=cmdvcTM4cGw1czF0" className='hover:text-pink-400 transition-all'>
               <FaInstagram />
+            </a>
+            <a href="#c" className='hover:text-red-500 transition-all'>
+              <FaYoutube />
             </a>
           </motion.div>
         </div>
