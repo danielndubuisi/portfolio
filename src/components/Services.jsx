@@ -25,14 +25,14 @@ const services = [
   },
   {
     name: 'Mixing and mastering',
-    description: 'Mastering sound and achieving polished and professional sounds is a work in progress but a task I can handle.',
+    description: 'Mastering sound and achieving polished and professional sounds.',
     link: 'Learn more',
   },
 
 ]
 
 const Services = () => {
-  return <section className='section lg:mb-[120px]' id='services'>
+  return <section className='section lg:my-[120px]' id='services'>
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row'>
         {/* text */}
@@ -67,7 +67,7 @@ const Services = () => {
                   <div className='flex py-2'>
                     <div className='max-w-[476px]'>
                       <h4 className='lg:text-[20px] text-[14px] tracking-wider font-primary font-semibold lg:mb-6 mb-2'>{name}</h4>
-                      <p className='font-secondary lg:text-[20px] text-[14px] leading-[22px] lg:leading-[35px] lg:w-full w-[280px]'>{description}</p>
+                      <p className='font-secondary lg:text-[19px] text-[14px] leading-[22px] lg:leading-[35px] lg:w-full w-[280px]'>{description}</p>
                     </div>
                     <div className='flex flex-col flex-1 items-end justify-between'>
                       <a href="#contact" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>

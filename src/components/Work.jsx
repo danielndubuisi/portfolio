@@ -21,9 +21,9 @@ const Work = () => {
             className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
             {/* text */}
             <div>
-              <h2 className='h2 leading-tight text-accent'>My lastest <br/> Work.</h2>
-              <p className='max-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit nostrum architecto quo, qui tempora eaque consequatur, minus molestias rerumr.</p>
-              <button className='btn btn-sm'>View all projects</button>
+              <h2 className='h2 text-[25px] leading-tight text-accent'>My lastest <br/> Work.</h2>
+              <p className='lg:max-w-sm lg:mb-16 lg:text-[20px] mb-8 text-[16px]'>Have a glimpse at some of my recent projects spanning from a landing page for a startup to new releases on my music projects.</p>
+              <button className='btn btn-sm'>View more projects</button>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -33,11 +33,13 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
               {/* pre-title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>
+                  <a href='https://www.talentpoel.com'>Talentpoel</a>
+                </span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='lg:text-3xl text-lg text-white'>Startup website </span>
               </div>
             </div>
           </motion.div>
@@ -55,11 +57,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
               {/* pre-title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Dashboard design</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='lg:text-3xl text-lg  text-white'>Mapper project</span>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -69,11 +71,13 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
               {/* pre-title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>
+                  <a href='https://linktr.ee/vinemusicoffical'>V.I.N.E.</a>
+                </span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='lg:text-3xl text-lg  text-white'>New Releases</span>
               </div>
             </div>
           </motion.div>
