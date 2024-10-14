@@ -10,22 +10,22 @@ import { fadeIn } from '../variants';
 const services = [
   {
     name: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo itaque quas culpa eaque eveniet aperiam possimus voluptas ut, rem assumenda qui reiciendis vitae quos, perferendis',
+    description: 'Crafting digital experiences - From concept to deployment, I bring your ideas to life through clean, efficient code to build robust and scalable applications tailored to your specific needs.',
     link: 'Learn more',
   },
   {
     name: 'Database Mangement & Analysis',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur aliquam culpa dolore omnis praesentium, minus maiores magnam..',
+    description: 'Unlocking the power of data - I specialize in data analysis, transforming raw data into actionable insights to empower Data-driven solutions...',
     link: 'Learn more',
   },
   {
     name: 'Vocal sampling',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo itaque quas culpa eaque eveniet aperiam possimus voluptas',
+    description: 'Crafting unique soundscapes - With almost a decade singing, sampling with my instrument creates one-of-a-kind sounds.',
     link: 'Learn more',
   },
   {
     name: 'Mixing and mastering',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo itaque quas culpa eaque eveniet aperiam possimus voluptas',
+    description: 'Mastering sound and achieving polished and professional sounds is a work in progress but a task I can handle.',
     link: 'Learn more',
   },
 
@@ -66,14 +66,14 @@ const Services = () => {
                 <div className='flex flex-col' key={index}>
                   <div className='flex py-2'>
                     <div className='max-w-[476px]'>
-                      <h4 className='lg:text-[20px] text-[14px] tracking-wider font-primary font-semibold lg:mb-6 mb-3'>{name}</h4>
-                      <p className='font-secondary lg:text-[20px] text-[14px] leading-tight lg:w-full w-[280px]'>{description}</p>
+                      <h4 className='lg:text-[20px] text-[14px] tracking-wider font-primary font-semibold lg:mb-6 mb-2'>{name}</h4>
+                      <p className='font-secondary lg:text-[20px] text-[14px] leading-[22px] lg:leading-[35px] lg:w-full w-[280px]'>{description}</p>
                     </div>
-                    <div className='flex flex-col flex-1 items-end'>
-                      <a href="#k" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                    <div className='flex flex-col flex-1 items-end justify-between'>
+                      <a href="#contact" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowRight />
                       </a>
-                      <a href="#l" className='text-gradient text-sm'>{link}</a>
+                      <a href="#contact" className='text-gradient lg:text-sm text-[8px]'>{link}</a>
                     </div>
                   </div>
                   <div className='border-b w-full border-white/20 h-[20px]'></div>

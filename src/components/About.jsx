@@ -32,7 +32,7 @@ const About = () => {
           className='flex-1'>
           <h2 className='lg:h2 h3 text-accent'>About me</h2>
           <h3 className='lg:h3 text-l font-bold leading-[25px] mb-4 -mt-3'>I am a Full Stack Developer with over 3 years of experience building web and software applications.</h3>
-          <p className='mb-6 text-sm font-medium leading-[28px] lg:text-lg'>I leverage my technical expertise and analytical skills to transform ideas into reality. Beyond my coding pursuits, I have a lifelong passion for creating and performing music. Music serves as a source of inspiration and balance in my life, enriching my perspective and fueling my drive for excellence.</p>
+          <p className='mb-6 text-sm font-medium leading-[28px] lg:text-[18px] lg:font-normal lg:leading-[36px]'>I leverage my technical expertise and analytical skills to transform ideas into reality. Beyond my coding pursuits, I have a lifelong passion for creating and performing music. Music serves as a source of inspiration and balance in my life, enriching my perspective and fueling my drive for excellence.</p>
           {/* stats */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-start'>
             <div>
