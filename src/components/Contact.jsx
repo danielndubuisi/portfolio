@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import { toast } from 'react-toastify';
+// import emailjs from '@emailjs/browser';
+// import { toast } from 'react-toastify';
 
 // motion
 import {motion} from 'framer-motion'
@@ -9,9 +9,9 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
   const formData = useRef();
-  const serviceID = process.env.EMAIL_SERVICE_ID
-  const templateID = process.env.EMAIL_TEMPLATE_ID
-  const publicKey = process.env.EMAIL_PUBLIC_KEY
+  // const serviceID = process.env.EMAIL_SERVICE_ID
+  // const templateID = process.env.EMAIL_TEMPLATE_ID
+  // const publicKey = process.env.EMAIL_PUBLIC_KEY
 
 
   const sendEmail = (e) => {
